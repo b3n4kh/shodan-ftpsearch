@@ -1,0 +1,5 @@
+.envrc
+.venv
+*.egg-info
+*.pyc
+data
