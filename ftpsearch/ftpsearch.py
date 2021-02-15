@@ -52,6 +52,7 @@ def main(debug: bool, query: str, api_key: str, output: str):
   api = Shodan(api_key)
   if debug:
     logging.basicConfig(level=logging.DEBUG)
+    logging.debug(query)
   else:
     logging.basicConfig(level=logging.INFO)
 

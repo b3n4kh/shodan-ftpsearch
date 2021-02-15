@@ -12,7 +12,9 @@ Usage: ftpsearch [OPTIONS]
 
 Options:
   --debug / --no-debug
-  --query TEXT          [default: 230 country:"AT" port:"21"]
+  --port INTEGER        [default: 21]
+  --country TEXT        Country Code  [default: AT]
+  --rcode INTEGER       FTP server return code  [default: 230]
   --output TEXT         [default: data]
   --apikey TEXT
   --help                Show this message and exit.
